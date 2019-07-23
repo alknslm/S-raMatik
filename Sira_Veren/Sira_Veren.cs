@@ -27,7 +27,7 @@ namespace Sira_Veren
 
 
         DataTable dt_bolum = new DataTable();
-        static string conString = "Server=10.42.2.10\\SQLEXPRESS;Initial Catalog=siramatik;MultipleActiveResultSets=true;User Id=konyaism;Password=1234qwER;";
+        static string conString = "Server=**.**.*.**\\SQLEXPRESS;Initial Catalog=siramatik;MultipleActiveResultSets=true;User Id=****;Password=****;";
         SqlConnection baglanti = new SqlConnection(conString);
         int x;
 
