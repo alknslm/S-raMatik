@@ -17,7 +17,7 @@ namespace Yönetici_Paneli
         {
             InitializeComponent();
         }
-        static string BaglantiAdresi = "Server=10.42.2.10\\SQLEXPRESS;Initial Catalog=siramatik;MultipleActiveResultSets=true;User Id=konyaism;Password=1234qwER;";
+        static string BaglantiAdresi = "Server=**.**.*.**\\SQLEXPRESS;Initial Catalog=siramatik;MultipleActiveResultSets=true;User Id=****;Password=****;";
         SqlConnection baglanti = new SqlConnection(BaglantiAdresi);
         DataTable dt = new DataTable();
         DataTable dt_bolum = new DataTable();
